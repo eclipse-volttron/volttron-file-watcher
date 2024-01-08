@@ -27,11 +27,9 @@ import os.path
 import sys
 
 from datetime import datetime
-from volttron.utils.filewatch import watch_file_with_fullpath
-from volttron.client.vip.agent import Agent, Core
 from volttron import utils
-
-
+from volttron.client.vip.agent import Agent, Core
+from volttron.utils.filewatch import watch_file_with_fullpath
 
 utils.setup_logging()
 _log = logging.getLogger(__name__)
