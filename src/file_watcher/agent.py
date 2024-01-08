@@ -36,7 +36,7 @@ _log = logging.getLogger(__name__)
 __version__ = '3.6'
 
 
-def file_watch_publisher(config_path, **kwargs):
+def file_watch_publisher(config_path: str, **kwargs):
     """
     Load the FileWatchPublisher agent configuration and returns and instance
     of the agent created using that configuration.
@@ -74,7 +74,7 @@ class FileWatchPublisher(Agent):
             ]
         }
     """
-    def __init__(self, config, **kwargs):
+    def __init__(self, config: dict, **kwargs):
         super(FileWatchPublisher, self).__init__(**kwargs)
         self.config = config
         items = config.get("files")
