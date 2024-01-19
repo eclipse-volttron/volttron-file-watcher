@@ -12,12 +12,12 @@ files the agent is configured to watch and the topics used for publishes.
 
 ## Prerequisites
 
-* Python 3.8
+* Python 3.10
 
 ## Python
 
 <details>
-<summary>To install Python 3.8, we recommend using <a href="https://github.com/pyenv/pyenv"><code>pyenv</code></a>.</summary>
+<summary>To install Python 3.10, we recommend using <a href="https://github.com/pyenv/pyenv"><code>pyenv</code></a>.</summary>
 
 ```bash
 # install pyenv
@@ -28,11 +28,11 @@ export PATH="${HOME}/.pyenv/bin:${PATH}"
 export PYENV_ROOT="${HOME}/.pyenv"
 eval "$(pyenv init -)"
 
-# install Python 3.8
-pyenv install 3.8.10
+# install Python 3.10
+pyenv install 3.10
 
 # make it available globally
-pyenv global system 3.8.10
+pyenv global system 3.10
 ```
 
 </details>
