@@ -1,6 +1,6 @@
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.1.0
+  rev: v4.5.0
   hooks:
   - id: check-yaml
   - id: check-json
@@ -12,3 +12,8 @@ repos:
   - id: check-merge-conflict
   - id: no-commit-to-branch  # blocks main commits.  To bypass do git commit --allow-empty
   - id: pretty-format-json
+- repo: https://github.com/pycqa/isort
+  rev: 5.13.2
+  hooks:
+    - id: isort
+      name: isort (python)
