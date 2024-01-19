@@ -22,12 +22,12 @@
 # ===----------------------------------------------------------------------===
 # }}}
 
-import os
-import gevent
 import json
-import pytest
+import os
 from unittest.mock import MagicMock
 
+import gevent
+import pytest
 from volttron.client.messaging.health import STATUS_GOOD
 from volttron.client.vip.agent import Agent
 from volttrontesting.fixtures.volttron_platform_fixtures import volttron_instance
