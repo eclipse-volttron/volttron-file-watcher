@@ -1,0 +1,8 @@
+{
+    "files": [
+        {
+            "file": "/opt/myservice/logs/myservice.log",
+            "topic": "record/myservice/logs"
+        }
+    ]
+}
