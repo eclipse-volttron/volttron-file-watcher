@@ -21,14 +21,14 @@ Before installing, VOLTTRON should be installed and running.  Its virtual enviro
 Information on how to install of the VOLTTRON platform can be found
 [here](https://github.com/eclipse-volttron/volttron-core).
 
-Create a directory called `config` and use the change directory command to enter it.
+Create a directory named `config` and use the change directory command to enter it.
 
 ```shell
 mkdir config
 cd config
 ```
 
-After entering the config directory, create a file called `file_watcher_config.json`, use the below JSON to populate your new file.
+After entering the config directory, create a file named `file_watcher_config.json`, use the below JSON to populate your new file.
 
 ## Example Usage
 
